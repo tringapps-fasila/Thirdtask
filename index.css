@@ -1,0 +1,104 @@
+.inputboxes {
+    width: 100%;
+    margin-left: 2%;
+}
+
+.upbar {
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 2px 2px 2px 2px #abe0ee;
+    background-color: #555;
+}
+
+.downbar {
+    margin: 50px 10px 10px 10px;
+    width: 90%;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px #abe0ee;
+    background-color: #555;
+    display: none;
+}
+
+input[type="text"] {
+    padding: 5px 5px;
+    margin: 2% 2% 2% 2%;
+    background-color: #ecf2eb;
+}
+
+table {
+    width: 85%;
+    border-collapse: collapse;
+    background-color: #83c7ee;
+    float: left;
+    margin: 2% 2% 2% 2%;
+}
+
+.add {
+    padding: 5px 10px;
+    background-color: #ecf2eb;
+}
+
+.minus {
+    padding: 5px 10px;
+    background-color: #ecf2eb;
+    display: none;
+}
+.page{
+    padding: 5px 10px;
+    background-color: #ecf2eb;
+    
+}
+th,
+td {
+    border: 2px solid #171818;
+    padding: 5px 10px;
+    color: #070707;
+
+
+}
+
+button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2% 2% 2% 2%;
+    width: 100px;
+    background-color: #ecf2eb;
+    border: thin solid #d5e4d4;
+    cursor: pointer;
+    color: #555;
+}
+
+button:hover {
+    background-color: #d0d8cf;
+}
+
+button:active {
+    background-color: #aedea6;
+}
+
+@media screen and (max-width:540px) {
+    input[type="text"] {
+    padding: 5px 5px;
+    margin: 2% 2% 2% 10%;
+    background-color: #ecf2eb;
+}
+.submit{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2% 2% 2% 10%;
+    width: 100px;
+    background-color: #ecf2eb;
+    border: thin solid #d5e4d4;
+    cursor: pointer;
+    color: #555;
+}
+button:hover {
+    background-color: #d0d8cf;
+}
+
+button:active {
+    background-color: #aedea6;
+}
+   
+}

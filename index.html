@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="upbar">
+        <form id="myform" action="" method="post" autocomplete="off" onsubmit="return false">
+
+            <div id="inputboxes">
+                <input type="text" name="namearr[]" id="names" placeholder="Enter Your Name" required>
+                <input type="text" name="agearr[]" id="ages" placeholder="Enter Your Age" required>
+                <input type="text" name="markarr[]" id="marks" placeholder="Enter Your Mark" required>
+                <span class="add" id="add" onclick="addbox(this);">+</span>
+                <span class="minus" id="minus" onclick="deletebox(this)">-</span>
+            </div>
+            <button class="submit" type="submit" onclick="changepage(1)">submit</button>
+            <button class="click"  type="submit" onclick="allclear()">clearall</button>
+        </form>
+    </div>
+    <div class="downbar" id="downbar">
+        <table id="table">
+            <thead>
+
+                <th id="name">Name</th>
+                <th id="age">Age</th>
+                <th id="mark">Mark</th>
+
+            </thead>
+            <tbody id="showtable">
+
+            </tbody>
+        </table>
+        <button onclick="prevpage()" id="btn-prev">prev</button>
+        <span class="page" id="page"></span><button onclick="nextpage()" id="btn-next">next</button>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
